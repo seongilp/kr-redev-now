@@ -1,0 +1,91 @@
+{
+  "upisRebuild": {
+    "list_total_count": 6612,
+    "RESULT": {
+      "CODE": "INFO-000",
+      "MESSAGE": "정상 처리되었습니다"
+    },
+    "row": [
+      {
+        "RPT_MNG_CD": "11000AGZ198504032330",
+        "PRJC_CD": "11000PPL198504036832",
+        "LOGVM": "서울특별시",
+        "RPT_TYPE": "변경",
+        "LCLSF": "의제처리구역",
+        "MCLSF": "정비구역",
+        "SCLSF": "재개발사업지구",
+        "PSTN_NM": "소공동 17번지일대",
+        "RGN_NM": "소공4-1도시환경정비지구",
+        "AREA_EXS": "3378.1",
+        "AREA_ICDC_CD": "",
+        "AREA_CHG": "",
+        "AREA_CHG_AFTR": "2472",
+        "DCSN_ANCMNT_MNG_CD": "11000NTC198504036832"
+      },
+      {
+        "RPT_MNG_CD": "11000AGZ198504032331",
+        "PRJC_CD": "11000PPL198504036832",
+        "LOGVM": "서울특별시",
+        "RPT_TYPE": "변경",
+        "LCLSF": "의제처리구역",
+        "MCLSF": "정비구역",
+        "SCLSF": "재개발사업지구",
+        "PSTN_NM": "소공동 111번지일대",
+        "RGN_NM": "소공4-2도시환경정비지구",
+        "AREA_EXS": "3115",
+        "AREA_ICDC_CD": "",
+        "AREA_CHG": "",
+        "AREA_CHG_AFTR": "4030.1",
+        "DCSN_ANCMNT_MNG_CD": "11000NTC198504036832"
+      },
+      {
+        "RPT_MNG_CD": "11000AGZ198504032332",
+        "PRJC_CD": "11000PPL198504036832",
+        "LOGVM": "서울특별시",
+        "RPT_TYPE": "변경",
+        "LCLSF": "의제처리구역",
+        "MCLSF": "정비구역",
+        "SCLSF": "재개발사업지구",
+        "PSTN_NM": "태평로2가 43일대",
+        "RGN_NM": "소공4-3도시환경정비지구",
+        "AREA_EXS": "3197",
+        "AREA_ICDC_CD": "",
+        "AREA_CHG": "",
+        "AREA_CHG_AFTR": "3197",
+        "DCSN_ANCMNT_MNG_CD": "11000NTC198504036832"
+      },
+      {
+        "RPT_MNG_CD": "11000AGZ198505012337",
+        "PRJC_CD": "11000PPL198505016898",
+        "LOGVM": "서울특별시",
+        "RPT_TYPE": "변경",
+        "LCLSF": "의제처리구역",
+        "MCLSF": "정비구역",
+        "SCLSF": "주택재개발사업지구",
+        "PSTN_NM": "성동구 하왕십리동 890번지 일대",
+        "RGN_NM": "하왕제1구역제1지구",
+        "AREA_EXS": "",
+        "AREA_ICDC_CD": "",
+        "AREA_CHG": "",
+        "AREA_CHG_AFTR": "63270",
+        "DCSN_ANCMNT_MNG_CD": "11000NTC198505016898"
+      },
+      {
+        "RPT_MNG_CD": "11000AGZ198505142339",
+        "PRJC_CD": "11000PPL198505146936",
+        "LOGVM": "서울특별시",
+        "RPT_TYPE": "변경",
+        "LCLSF": "의제처리구역",
+        "MCLSF": "정비구역",
+        "SCLSF": "도시환경정비사업지구",
+        "PSTN_NM": "서린동 33번지 일대(41필지)",
+        "RGN_NM": "서린구역제12지구",
+        "AREA_EXS": "7363.4",
+        "AREA_ICDC_CD": "",
+        "AREA_CHG": "",
+        "AREA_CHG_AFTR": "7472.1",
+        "DCSN_ANCMNT_MNG_CD": "11000NTC198505146936"
+      }
+    ]
+  }
+}

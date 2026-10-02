@@ -1,0 +1,41 @@
+{
+  "openGreenInfo": {
+    "list_total_count": 32,
+    "RESULT": {
+      "CODE": "INFO-000",
+      "MESSAGE": "정상 처리되었습니다"
+    },
+    "row": [
+      {
+        "SN": "1",
+        "ZONE_NM": "봉래 2지구",
+        "OPN_GRN_AREA": "1180.7",
+        "PRPL_PRST": "정비계획 고시"
+      },
+      {
+        "SN": "2",
+        "ZONE_NM": "동자동2구역",
+        "OPN_GRN_AREA": "3609",
+        "PRPL_PRST": "정비계획 고시"
+      },
+      {
+        "SN": "3",
+        "ZONE_NM": "내자필운 2-1지구",
+        "OPN_GRN_AREA": "4750.8",
+        "PRPL_PRST": "정비계획 고시"
+      },
+      {
+        "SN": "4",
+        "ZONE_NM": "수송 1-2지구",
+        "OPN_GRN_AREA": "1471",
+        "PRPL_PRST": "정비계획 고시"
+      },
+      {
+        "SN": "5",
+        "ZONE_NM": "공평 3지구",
+        "OPN_GRN_AREA": "1955.1",
+        "PRPL_PRST": "정비계획 고시"
+      }
+    ]
+  }
+}

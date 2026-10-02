@@ -1,0 +1,41 @@
+{
+  "jibsuriBbsNotice": {
+    "list_total_count": 298,
+    "RESULT": {
+      "CODE": "INFO-000",
+      "MESSAGE": "정상 처리되었습니다"
+    },
+    "row": [
+      {
+        "REG_NO": 5377.0,
+        "TTL": "2026년 집수리 아카데미 심화과정 교육대상자 명단(예비자 포함) 및 안내",
+        "REG_DT": "2026-08-18 18:27:40.0",
+        "URL": "https://jibsuri.seoul.go.kr/board/detail.do?bbsId=notice&nttId=5377"
+      },
+      {
+        "REG_NO": 5376.0,
+        "TTL": "2026년 집수리 아카데미 심화과정(1~2회차) 교육대상자 명단(예비자 포함) 및 안내",
+        "REG_DT": "2026-08-18 18:24:52.0",
+        "URL": "https://jibsuri.seoul.go.kr/board/detail.do?bbsId=notice&nttId=5376"
+      },
+      {
+        "REG_NO": 5337.0,
+        "TTL": "2026년 집수리 아카데미 기초과정 4~6회차 교육대상자 명단(예비자 포함) 및 안내",
+        "REG_DT": "2026-06-29 17:23:12.0",
+        "URL": "https://jibsuri.seoul.go.kr/board/detail.do?bbsId=notice&nttId=5337"
+      },
+      {
+        "REG_NO": 5279.0,
+        "TTL": "2026년 집수리 아카데미 기초과정 1~3회차 교육대상자 명단(예비자 포함) 및 안내",
+        "REG_DT": "2026-05-12 17:10:14.0",
+        "URL": "https://jibsuri.seoul.go.kr/board/detail.do?bbsId=notice&nttId=5279"
+      },
+      {
+        "REG_NO": 5211.0,
+        "TTL": "2026년 집수리 아카데미 기초 및 심화과정 교육생 모집안내",
+        "REG_DT": "2026-04-24 14:30:41.0",
+        "URL": "https://jibsuri.seoul.go.kr/board/detail.do?bbsId=notice&nttId=5211"
+      }
+    ]
+  }
+}

@@ -1,0 +1,704 @@
+{
+  "OA-2252": {
+    "id": "OA-2252",
+    "service": "ListCombinationBidding",
+    "fields_raw": [
+      [
+        "BIZ_NO",
+        "사업번호"
+      ],
+      [
+        "ASCT_NM",
+        "추진위원회/조합명"
+      ],
+      [
+        "TTL",
+        "제목"
+      ],
+      [
+        "REG_DAY",
+        "등록일"
+      ],
+      [
+        "PBANC_YMD",
+        "공고일자"
+      ],
+      [
+        "BID_NM",
+        "입찰명"
+      ],
+      [
+        "BID_EXPRY_DAY",
+        "입찰마감일"
+      ],
+      [
+        "BID_ATND_QLFC",
+        "입찰참가자격"
+      ],
+      [
+        "SLCTN_MTHD",
+        "선정방법"
+      ],
+      [
+        "ADD_INFO",
+        "추가정보"
+      ]
+    ],
+    "file_rows": []
+  },
+  "OA-2255": {
+    "id": "OA-2255",
+    "service": "CleanupPartnersInfo",
+    "fields_raw": [
+      [
+        "BIZ_NO",
+        "사업번호"
+      ],
+      [
+        "BZENTY_CLSF_NM",
+        "업체분류명"
+      ],
+      [
+        "BZENTY_NM",
+        "업체명"
+      ],
+      [
+        "ADDR",
+        "주소"
+      ],
+      [
+        "TELNO",
+        "전화번호"
+      ],
+      [
+        "HMPG_ADDR",
+        "홈페이지주소"
+      ],
+      [
+        "CTRT_CNCLTN_YN",
+        "계약해지여부"
+      ]
+    ],
+    "file_rows": []
+  },
+  "OA-11618": {
+    "id": "OA-11618",
+    "service": "GbPrmtRdvmt",
+    "fields_raw": [
+      [
+        "NO",
+        "번호"
+      ],
+      [
+        "BIZ_MTHD",
+        "사업방식"
+      ],
+      [
+        "ZONE_NM",
+        "구역명"
+      ],
+      [
+        "ZONE_PSTN",
+        "구역위치"
+      ],
+      [
+        "ZONE_AREA",
+        "구역면적(㎡)"
+      ],
+      [
+        "ARCH_PLAN",
+        "건축계획"
+      ]
+    ],
+    "file_rows": []
+  },
+  "OA-20281": {
+    "id": "OA-20281",
+    "service": "upisRebuild",
+    "fields_raw": [
+      [
+        "RPT_MNG_CD",
+        "조서관리코드"
+      ],
+      [
+        "PRJC_CD",
+        "프로젝트코드"
+      ],
+      [
+        "LOGVM",
+        "지자체"
+      ],
+      [
+        "RPT_TYPE",
+        "조서유형(구분)"
+      ],
+      [
+        "LCLSF",
+        "대분류"
+      ],
+      [
+        "MCLSF",
+        "중분류"
+      ],
+      [
+        "SCLSF",
+        "소분류"
+      ],
+      [
+        "PSTN_NM",
+        "위치명"
+      ],
+      [
+        "RGN_NM",
+        "지역명"
+      ],
+      [
+        "AREA_EXS",
+        "면적기정"
+      ],
+      [
+        "AREA_ICDC_CD",
+        "면적증감코드"
+      ],
+      [
+        "AREA_CHG",
+        "면적변경"
+      ],
+      [
+        "AREA_CHG_AFTR",
+        "면적변경후"
+      ],
+      [
+        "DCSN_ANCMNT_MNG_CD",
+        "결정고시관리코드"
+      ]
+    ],
+    "file_rows": []
+  },
+  "OA-20286": {
+    "id": "OA-20286",
+    "service": "upisNewtown",
+    "fields_raw": [
+      [
+        "RPT_MNG_CD",
+        "조서관리코드"
+      ],
+      [
+        "PRJC_CD",
+        "프로젝트코드"
+      ],
+      [
+        "LOGVM",
+        "지자체"
+      ],
+      [
+        "RPT_TYPE",
+        "조서유형(구분)"
+      ],
+      [
+        "LCLSF",
+        "대분류"
+      ],
+      [
+        "MCLSF",
+        "중분류"
+      ],
+      [
+        "SCLSF",
+        "소분류"
+      ],
+      [
+        "PSTN_NM",
+        "위치명"
+      ],
+      [
+        "RGN_NM",
+        "지역명"
+      ],
+      [
+        "AREA_EXS",
+        "면적기정"
+      ],
+      [
+        "AREA_ICDC_CD",
+        "면적증감코드"
+      ],
+      [
+        "AREA_CHG",
+        "면적변경"
+      ],
+      [
+        "AREA_CHG_AFTR",
+        "면적변경후"
+      ],
+      [
+        "DCSN_ANCMNT_MNG_CD",
+        "결정고시관리코드"
+      ]
+    ],
+    "file_rows": []
+  },
+  "OA-22856": {
+    "id": "OA-22856",
+    "service": "TbSeoulRedevStatus",
+    "fields_raw": [
+      [
+        "CODE",
+        "CODE"
+      ],
+      [
+        "SEQ_NO",
+        "순번"
+      ],
+      [
+        "DISTRICT",
+        "자치구"
+      ],
+      [
+        "ZONE_NM",
+        "구역명"
+      ],
+      [
+        "JIBUN_ADDR",
+        "지번주소"
+      ],
+      [
+        "ROAD_ADDR",
+        "도로명주소"
+      ],
+      [
+        "BIZ_METHOD_PUBLIC_PRIVATE",
+        "사업방법_공공/민간"
+      ],
+      [
+        "BIZ_METHOD_GENERAL_PROMOTED",
+        "사업방법_일반/재촉지구"
+      ],
+      [
+        "BIZ_TYPE",
+        "사업유형"
+      ],
+      [
+        "BIZ_STAGE",
+        "사업추진단계"
+      ],
+      [
+        "EXISTING_HOUSEHOLDS",
+        "기존가구수(멸실량)"
+      ],
+      [
+        "ZONE_DESIGNATION_INIT_YMD",
+        "구역지정_최초"
+      ],
+      [
+        "ZONE_DESIGNATION_LAST_YMD",
+        "구역지정_변경최종"
+      ],
+      [
+        "PROMOTION_COMMITTEE_YMD",
+        "추진위원회"
+      ],
+      [
+        "ASSOCIATION_ESTABLISHMENT_YMD",
+        "조합설립인가(사업시행자 지정일)"
+      ],
+      [
+        "ARCHITECTURAL_REVIEW_YMD",
+        "건축심의"
+      ],
+      [
+        "BIZ_IMPLEMENTATION_INIT_YMD",
+        "사업시행인가_최초"
+      ],
+      [
+        "BIZ_IMPLEMENTATION_LAST_YMD",
+        "사업시행인가_변경(최종)"
+      ],
+      [
+        "MGMT_DISPOSITION_INIT_YMD",
+        "관리처분계획인가_최초"
+      ],
+      [
+        "MGMT_DISPOSITION_LAST_YMD",
+        "관리처분계획인가_변경최종"
+      ],
+      [
+        "MIGRATION_START_YMD",
+        "이주시작일"
+      ],
+      [
+        "MIGRATION_END_YMD",
+        "이주종료일"
+      ],
+      [
+        "CONSTRUCTION_START_YMD",
+        "착공일"
+      ],
+      [
+        "TOT_BUILT_HOUSEHOLDS",
+        "건립세대수_총합계"
+      ],
+      [
+        "SALE_BUILT_HOUSEHOLDS",
+        "건립세대수_분양"
+      ],
+      [
+        "RENT_BUILT_HOUSEHOLDS",
+        "건립세대수_임대"
+      ]
+    ],
+    "file_rows": [
+      [
+        "2026.09.10",
+        "2"
+      ],
+      [
+        "2026.07.15",
+        "1"
+      ]
+    ]
+  },
+  "OA-22857": {
+    "id": "OA-22857",
+    "service": "tbShouseRawCasebook",
+    "fields_raw": [
+      [
+        "LCLSF",
+        "대분류"
+      ],
+      [
+        "MCLSF",
+        "중분류"
+      ],
+      [
+        "PAGE",
+        "페이지"
+      ],
+      [
+        "DEPT_DOC_NO",
+        "부서명-문서번호"
+      ],
+      [
+        "QSTN_TTL",
+        "질의제목"
+      ],
+      [
+        "QSTN_IMPT",
+        "질의요지"
+      ],
+      [
+        "RPLY_CN",
+        "회신내용"
+      ]
+    ],
+    "file_rows": [
+      [
+        "2026.01.12",
+        "3"
+      ],
+      [
+        "2026.01.12",
+        "2"
+      ],
+      [
+        "2026.01.09",
+        "1"
+      ]
+    ]
+  },
+  "OA-22993": {
+    "id": "OA-22993",
+    "service": "openGreenInfo",
+    "fields_raw": [
+      [
+        "SN",
+        "연번"
+      ],
+      [
+        "ZONE_NM",
+        "구역(지구)명"
+      ],
+      [
+        "OPN_GRN_AREA",
+        "개방형녹지 면적(㎡)"
+      ],
+      [
+        "PRPL_PRST",
+        "추진현황"
+      ]
+    ],
+    "file_rows": [
+      [
+        "2026.05.04",
+        "1"
+      ]
+    ]
+  },
+  "OA-12027": {
+    "id": "OA-12027",
+    "service": "SearchSHRentApt",
+    "fields_raw": [
+      [
+        "GU_NM",
+        "구명"
+      ],
+      [
+        "APT_NM",
+        "단지명"
+      ],
+      [
+        "APT_TYPE",
+        "주택유형"
+      ],
+      [
+        "APT_CNT",
+        "세대수"
+      ],
+      [
+        "APT_OPEN_DT",
+        "입주개시일"
+      ],
+      [
+        "APT_ADDR",
+        "주소"
+      ],
+      [
+        "APT_ZIP",
+        "우편번호"
+      ],
+      [
+        "APT_TEL",
+        "전화번호"
+      ]
+    ],
+    "file_rows": [
+      [
+        "2026.02.20",
+        "8"
+      ],
+      [
+        "2025.03.06",
+        "7"
+      ],
+      [
+        "2024.10.23",
+        "6"
+      ]
+    ]
+  },
+  "OA-2744": {
+    "id": "OA-2744",
+    "file_rows": [
+      [
+        "2025.03.07",
+        "5"
+      ],
+      [
+        "2023.05.19",
+        "4"
+      ]
+    ]
+  },
+  "OA-2745": {
+    "id": "OA-2745",
+    "file_rows": [
+      [
+        "2025.03.07",
+        "7"
+      ],
+      [
+        "2023.05.19",
+        "6"
+      ]
+    ]
+  },
+  "OA-2747": {
+    "id": "OA-2747",
+    "file_rows": [
+      [
+        "2025.03.07",
+        "5"
+      ],
+      [
+        "2023.05.19",
+        "4"
+      ]
+    ]
+  },
+  "OA-20957": {
+    "id": "OA-20957",
+    "file_rows": [
+      [
+        "2026.09.11",
+        "10"
+      ],
+      [
+        "2026.03.04",
+        "9"
+      ],
+      [
+        "2025.08.05",
+        "8"
+      ],
+      [
+        "2025.04.10",
+        "7"
+      ],
+      [
+        "2025.03.20",
+        "6"
+      ],
+      [
+        "2024.11.14",
+        "5"
+      ],
+      [
+        "2024.11.12",
+        "4"
+      ],
+      [
+        "2024.11.07",
+        "3"
+      ],
+      [
+        "2023.10.04",
+        "2"
+      ],
+      [
+        "2021.05.27",
+        "1"
+      ]
+    ]
+  },
+  "OA-21790": {
+    "id": "OA-21790",
+    "file_rows": [
+      [
+        "2026.09.11",
+        "3"
+      ],
+      [
+        "2025.08.19",
+        "2"
+      ],
+      [
+        "2023.07.04",
+        "1"
+      ]
+    ]
+  },
+  "OA-22253": {
+    "id": "OA-22253",
+    "file_rows": [
+      [
+        "2023.12.26",
+        "1"
+      ]
+    ]
+  },
+  "OA-22712": {
+    "id": "OA-22712",
+    "file_rows": [
+      [
+        "2026.09.10",
+        "5"
+      ],
+      [
+        "2026.02.11",
+        "4"
+      ]
+    ]
+  },
+  "OA-22900": {
+    "id": "OA-22900",
+    "file_rows": [
+      [
+        "2026.04.07",
+        "1"
+      ]
+    ]
+  },
+  "OA-15506": {
+    "id": "OA-15506",
+    "file_rows": [
+      [
+        "2025.07.25",
+        "2"
+      ],
+      [
+        "2025.04.07",
+        "1"
+      ]
+    ]
+  },
+  "OA-21717": {
+    "id": "OA-21717",
+    "service": "jibsuriBbsNotice",
+    "fields_raw": [
+      [
+        "REG_NO",
+        "등록번호"
+      ],
+      [
+        "TTL",
+        "제목"
+      ],
+      [
+        "REG_DT",
+        "등록일시"
+      ],
+      [
+        "URL",
+        "바로가기"
+      ]
+    ],
+    "file_rows": []
+  },
+  "OA-21718": {
+    "id": "OA-21718",
+    "service": "eduCmpltEnt",
+    "fields_raw": [
+      [
+        "ENT_NO",
+        "시공업체 일련번호"
+      ],
+      [
+        "BZENTY_NM",
+        "업체명"
+      ],
+      [
+        "OPBIZ_YMD",
+        "개업일자"
+      ],
+      [
+        "RPRSV_NM",
+        "대표자"
+      ],
+      [
+        "ENT_TEL",
+        "업체연락처"
+      ],
+      [
+        "BIZ_CLS",
+        "사업종목"
+      ],
+      [
+        "HLD_LCNS",
+        "보유면허"
+      ],
+      [
+        "MAIN_CNST_FLD",
+        "주요시공분야"
+      ],
+      [
+        "DONG_CD",
+        "행정동코드"
+      ],
+      [
+        "BZENTY_ADDR",
+        "업체주소"
+      ]
+    ],
+    "file_rows": []
+  }
+}

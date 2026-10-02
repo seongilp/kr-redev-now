@@ -1,0 +1,56 @@
+{
+  "CleanupPartnersInfo": {
+    "list_total_count": 41684,
+    "RESULT": {
+      "CODE": "INFO-000",
+      "MESSAGE": "정상 처리되었습니다"
+    },
+    "row": [
+      {
+        "BIZ_NO": "11260-100003038",
+        "BZENTY_CLSF_NM": "기타",
+        "BZENTY_NM": "주식회사 디자인스튜디오빅",
+        "ADDR": "",
+        "TELNO": "",
+        "HMPG_ADDR": "",
+        "CTRT_CNCLTN_YN": "N"
+      },
+      {
+        "BIZ_NO": "11410-100007009",
+        "BZENTY_CLSF_NM": "기타",
+        "BZENTY_NM": "(주)동명감정평가법인",
+        "ADDR": "",
+        "TELNO": "",
+        "HMPG_ADDR": "",
+        "CTRT_CNCLTN_YN": "N"
+      },
+      {
+        "BIZ_NO": "11290-100016009",
+        "BZENTY_CLSF_NM": "기타",
+        "BZENTY_NM": "회계법인 아성",
+        "ADDR": "",
+        "TELNO": "",
+        "HMPG_ADDR": "",
+        "CTRT_CNCLTN_YN": "N"
+      },
+      {
+        "BIZ_NO": "11350-100002014",
+        "BZENTY_CLSF_NM": "기타",
+        "BZENTY_NM": "미다스 디자인",
+        "ADDR": "",
+        "TELNO": "",
+        "HMPG_ADDR": "",
+        "CTRT_CNCLTN_YN": "N"
+      },
+      {
+        "BIZ_NO": "11620-100003010",
+        "BZENTY_CLSF_NM": "기타",
+        "BZENTY_NM": "주식회사 가람알엔씨",
+        "ADDR": "서울특별시 서대문구 거북골로23길 33 (북가좌동,신안월드빌)",
+        "TELNO": "",
+        "HMPG_ADDR": "",
+        "CTRT_CNCLTN_YN": "N"
+      }
+    ]
+  }
+}

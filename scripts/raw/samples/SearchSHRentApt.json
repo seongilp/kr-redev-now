@@ -1,0 +1,61 @@
+{
+  "SearchSHRentApt": {
+    "list_total_count": 825,
+    "RESULT": {
+      "CODE": "INFO-000",
+      "MESSAGE": "정상 처리되었습니다"
+    },
+    "row": [
+      {
+        "GU_NM": "강남구",
+        "APT_NM": "대치1",
+        "APT_TYPE": "영구임대",
+        "APT_CNT": 1623.0,
+        "APT_OPEN_DT": "33618",
+        "APT_ADDR": "개포로109길 9 (개포동 12, 대치아파트)",
+        "APT_ZIP": "06335",
+        "APT_TEL": ""
+      },
+      {
+        "GU_NM": "강남구",
+        "APT_NM": "수서1-1단지",
+        "APT_TYPE": "영구,공공",
+        "APT_CNT": 2214.0,
+        "APT_OPEN_DT": "33909",
+        "APT_ADDR": "양재대로55길 10 (일원동 711, 수서1단지 에스에이치빌)",
+        "APT_ZIP": "06341",
+        "APT_TEL": ""
+      },
+      {
+        "GU_NM": "강남구",
+        "APT_NM": "수서6",
+        "APT_TYPE": "영구임대",
+        "APT_CNT": 1508.0,
+        "APT_OPEN_DT": "33939",
+        "APT_ADDR": "광평로56길 11 (수서동 723, 수서6단지아파트)",
+        "APT_ZIP": "06368",
+        "APT_TEL": ""
+      },
+      {
+        "GU_NM": "강남구",
+        "APT_NM": "신사삼지래미안",
+        "APT_TYPE": "재건축",
+        "APT_CNT": 3.0,
+        "APT_OPEN_DT": "39892",
+        "APT_ADDR": "압구정로2길 20 (신사동 506-9, 래미안 신사)",
+        "APT_ZIP": "06027",
+        "APT_TEL": ""
+      },
+      {
+        "GU_NM": "강남구",
+        "APT_NM": "래미안그레이튼",
+        "APT_TYPE": "재건축",
+        "APT_CNT": 24.0,
+        "APT_OPEN_DT": "40242",
+        "APT_ADDR": "도곡로43길 20 (역삼동 763-16, 래미안 그레이튼)",
+        "APT_ZIP": "06219",
+        "APT_TEL": ""
+      }
+    ]
+  }
+}

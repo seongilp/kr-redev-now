@@ -1,0 +1,91 @@
+{
+  "upisNewtown": {
+    "list_total_count": 693,
+    "RESULT": {
+      "CODE": "INFO-000",
+      "MESSAGE": "정상 처리되었습니다"
+    },
+    "row": [
+      {
+        "RPT_MNG_CD": "11000AGZ201908130008",
+        "PRJC_CD": "11000PPL201908130004",
+        "LOGVM": "성북구",
+        "RPT_TYPE": "변경",
+        "LCLSF": "의제처리구역",
+        "MCLSF": "재정비촉진지구",
+        "SCLSF": "주거지형재정비촉진지구",
+        "PSTN_NM": "성북구 장위동 일원",
+        "RGN_NM": "장위재정비촉진지구",
+        "AREA_EXS": 1872072.5,
+        "AREA_ICDC_CD": "2",
+        "AREA_CHG": 953171.0,
+        "AREA_CHG_AFTR": 918901.5,
+        "DCSN_ANCMNT_MNG_CD": "11290NTC201908130004"
+      },
+      {
+        "RPT_MNG_CD": "11230AGZ202110250001",
+        "PRJC_CD": "11230PPL202110250004",
+        "LOGVM": "동대문구",
+        "RPT_TYPE": "변경",
+        "LCLSF": "의제처리구역",
+        "MCLSF": "재정비촉진지구",
+        "SCLSF": "주거지형재정비촉진지구",
+        "PSTN_NM": "동대문구 전농 1,4동, 답십리동 1,3,5동 ",
+        "RGN_NM": "전농·답십리 재정비촉진지구 ",
+        "AREA_EXS": 812867.2,
+        "AREA_ICDC_CD": "2",
+        "AREA_CHG": 0.1,
+        "AREA_CHG_AFTR": 812867.1,
+        "DCSN_ANCMNT_MNG_CD": "11230NTC202110250004"
+      },
+      {
+        "RPT_MNG_CD": "11500AGZ202301200002",
+        "PRJC_CD": "11500PPL202301200001",
+        "LOGVM": "강서구",
+        "RPT_TYPE": "변경",
+        "LCLSF": "의제처리구역",
+        "MCLSF": "재정비촉진지구",
+        "SCLSF": "존치관리구역",
+        "PSTN_NM": "",
+        "RGN_NM": "존치관리구역",
+        "AREA_EXS": 71934.0,
+        "AREA_ICDC_CD": "1",
+        "AREA_CHG": 37.0,
+        "AREA_CHG_AFTR": 71971.0,
+        "DCSN_ANCMNT_MNG_CD": "11500NTC202301200001"
+      },
+      {
+        "RPT_MNG_CD": "11000AGZ202301300001",
+        "PRJC_CD": "11000PPL202301300003",
+        "LOGVM": "서울특별시",
+        "RPT_TYPE": "변경",
+        "LCLSF": "의제처리구역",
+        "MCLSF": "재정비촉진지구",
+        "SCLSF": "주거지형재정비촉진지구",
+        "PSTN_NM": "동작구 노량진동  270-2번지 일대 ",
+        "RGN_NM": "노량진 재정비촉진지구 ",
+        "AREA_EXS": 739033.5,
+        "AREA_ICDC_CD": "2",
+        "AREA_CHG": 100.0,
+        "AREA_CHG_AFTR": 738933.5,
+        "DCSN_ANCMNT_MNG_CD": "11000NTC202301300004"
+      },
+      {
+        "RPT_MNG_CD": "11000AGZ202302210001",
+        "PRJC_CD": "11000PPL202302210004",
+        "LOGVM": "성북구",
+        "RPT_TYPE": "변경",
+        "LCLSF": "의제처리구역",
+        "MCLSF": "재정비촉진지구",
+        "SCLSF": "주거지형재정비촉진지구",
+        "PSTN_NM": "성북구 장위동일원 ",
+        "RGN_NM": "장위 재정비촉진지구 ",
+        "AREA_EXS": 920562.7,
+        "AREA_ICDC_CD": "2",
+        "AREA_CHG": 27.0,
+        "AREA_CHG_AFTR": 920535.7,
+        "DCSN_ANCMNT_MNG_CD": "11380NTC202302210002"
+      }
+    ]
+  }
+}
