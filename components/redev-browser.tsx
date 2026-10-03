@@ -89,7 +89,7 @@ export function RedevBrowser() {
 
   return (
     // 모바일: 조작부 → 지도 → 목록. 데스크톱: 왼쪽 조작부·목록, 오른쪽 지도(지도는 하나만).
-    <div className="grid gap-3 lg:h-[calc(100dvh-7.5rem)] lg:grid-cols-[400px_1fr] lg:grid-rows-[auto_minmax(0,1fr)]">
+    <div className="grid gap-3 lg:h-[calc(100dvh-10rem)] lg:grid-cols-[400px_1fr] lg:grid-rows-[auto_minmax(0,1fr)]">
       <div className="flex flex-col gap-3 lg:col-start-1 lg:row-start-1">
         <div className="flex flex-wrap gap-1.5">
           {CATEGORIES.map((c) => {

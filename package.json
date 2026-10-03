@@ -9,7 +9,7 @@
     "lint": "eslint",
     "test": "tsx --test lib/__tests__/*.test.ts",
     "collect": "python3 scripts/collect.py",
-    "sync-data": "mkdir -p public/data && cp data/zones.geojson public/data/",
+    "sync-data": "mkdir -p public/data && cp data/zones.geojson data/gg-projects.json public/data/",
     "predev": "npm run sync-data",
     "prebuild": "npm run sync-data"
   },

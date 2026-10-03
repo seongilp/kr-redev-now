@@ -5,7 +5,8 @@ import { ExternalLink, Loader2, X } from 'lucide-react';
 
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { REDEV_STAGES, categoryColor, stageIndex } from '@/lib/categories';
+import { StageBar } from '@/components/stage-bar';
+import { categoryColor } from '@/lib/categories';
 import type { DateKey, ZoneDetail, ZoneProps } from '@/lib/types';
 
 const DATE_LABELS: [DateKey, string][] = [
@@ -42,7 +43,6 @@ export function ZoneDetailPanel({ zone, onClose }: { zone: ZoneProps; onClose: (
     };
   }, [zone.id, zone.statId, zone.bizNos, hasJoin]);
 
-  const idx = stageIndex(zone.stage);
   const p = state.kind === 'ready' ? state.detail.project : null;
 
   return (
@@ -69,16 +69,7 @@ export function ZoneDetailPanel({ zone, onClose }: { zone: ZoneProps; onClose: (
         <h3 className="text-sm font-semibold">
           추진단계 <span className="text-primary">{zone.stage || '정보 없음'}</span>
         </h3>
-        {idx >= 0 && (
-          <ol className="grid grid-cols-8 gap-1">
-            {REDEV_STAGES.map((s, i) => (
-              <li key={s} className="space-y-1">
-                <div className={`h-1.5 rounded-full ${i <= idx ? 'bg-primary' : 'bg-[#E5E8EB]'}`} />
-                <span className={`block text-[10px] leading-tight ${i === idx ? 'font-semibold text-primary' : 'text-muted-foreground'}`}>{s}</span>
-              </li>
-            ))}
-          </ol>
-        )}
+        <StageBar stage={zone.stage} />
       </section>
 
       {hasJoin && state.kind === 'loading' && (

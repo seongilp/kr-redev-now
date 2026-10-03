@@ -34,11 +34,31 @@ export const REDEV_STAGES = [
   '준공',
 ] as const;
 
+/** 표준 단계명과 다르게 적는 표기(경기도·소규모정비) → 표준 단계 */
+const STAGE_ALIASES: [RegExp, (typeof REDEV_STAGES)[number]][] = [
+  [/관리처분/, '관리처분계획인가'],
+  [/사업시행/, '사업시행인가'],
+  [/추진위/, '추진위구성'],
+  [/조합설립/, '조합설립인가'],
+  [/^정비구역|구역지정/, '구역지정'],
+  // 준공 뒤 절차(이전고시·청산)는 막대에선 준공으로 본다
+  [/준공|이전고시|청산/, '준공'],
+];
+
 export function stageIndex(stage: string): number {
   const compact = stage.replace(/\s/g, '');
-  // '조합설립추진중'처럼 단계명이 붙어 쓰인 경우도 잡는다
-  const idx = REDEV_STAGES.findIndex((s) => compact.includes(s) || compact.includes(s.replace(/인가$/, '')));
+  let idx = REDEV_STAGES.findIndex((s) => compact.includes(s));
+  if (idx < 0) {
+    const alias = STAGE_ALIASES.find(([re]) => re.test(compact))?.[1];
+    idx = alias ? REDEV_STAGES.indexOf(alias) : -1;
+  }
   // '조합설립인가 추진중' = 아직 인가 전 → 바로 앞 단계까지만
   if (idx > 0 && compact.includes('추진중')) return idx - 1;
   return idx;
 }
+
+/** 경기 점 지도 색 — 서울과 같은 계열(재개발·재건축 파랑, 소규모 초록) */
+export const GG_KIND_COLORS: Record<'정비사업' | '소규모정비', string> = {
+  정비사업: '#3182F6',
+  소규모정비: '#10B981',
+};

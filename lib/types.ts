@@ -65,3 +65,21 @@ export interface ZoneDetail {
   bids: Bid[];
   partners: Partner[];
 }
+
+/** `data/gg-projects.json` — scripts/collect_gg.py. 경기도는 구역 경계가 없어 주소를 좌표로 바꾼 점이다. */
+export interface GgProject {
+  id: string;
+  kind: '정비사업' | '소규모정비';
+  name: string;
+  gu: string;
+  addr: string;
+  /** 지오코딩 실패면 null — 지도엔 없고 목록에만 나온다 */
+  lat: number | null;
+  lng: number | null;
+  type: string;
+  stage: string;
+  area: number | null;
+  households?: { existing?: string | number; total?: string | number; sale?: string | number; rent?: string | number };
+  dates?: Partial<Record<DateKey | 'completion', string>>;
+  extra?: Record<string, string>;
+}

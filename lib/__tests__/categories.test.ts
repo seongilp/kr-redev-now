@@ -24,3 +24,13 @@ test('대분류 색 — 끝 공백(원천 코드표 "재정비촉진사업 ")을
   assert.equal(categoryColor('재정비촉진사업 '), '#8B5CF6');
   assert.equal(categoryColor('모르는사업'), FALLBACK_COLOR);
 });
+
+test('경기 표기 별칭 — 관리처분·추진위원회·청산·이전고시·정비구역', () => {
+  assert.equal(stageIndex('관리처분'), 5);
+  assert.equal(stageIndex('추진위원회'), 1);
+  assert.equal(stageIndex('정비구역'), 0);
+  assert.equal(stageIndex('사업시행'), 4);
+  assert.equal(stageIndex('청산'), 7);
+  assert.equal(stageIndex('이전고시'), 7);
+  assert.equal(stageIndex('예정구역'), -1);
+});
